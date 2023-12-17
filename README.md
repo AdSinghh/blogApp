@@ -28,33 +28,13 @@ cd blog-app
 
 Certainly! Below is a template for a README file for your blog app. Feel free to modify it based on the specific details and features of your application:
 
-markdown
-Copy code
-# Blog App
-
-This is a simple blog app that allows users to create posts, add comments, and like/unlike posts.
-
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
 
 - Create and publish blog posts.
 - Add comments to blog posts.
 - Like and unlike blog posts.
 - Fetch all posts with populated comments and likes.
 
-## Getting Started
 
-### Prerequisites
 
 Before you begin, ensure you have the following prerequisites:
 
