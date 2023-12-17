@@ -16,7 +16,7 @@ router.post("/create/comment", createComment);
 router.post("/create/post", createPost);
 
 // Route for fetching all posts
-router.post('/posts', fetchAllPosts);
+router.get('/posts', fetchAllPosts);
 
 // Route for liking a post
 router.post('/likes/like', likePost);
