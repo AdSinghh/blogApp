@@ -48,13 +48,15 @@ npm start
 Visit http://localhost:3000 in your browser to access the application.
 
   API Endpoints
-The following API endpoints are available:
+
+  
+ The following API endpoints are available:
 
   POST /api/create/comment: Create a comment.
 
   POST /api/create/post: Create a blog post.
 
-  POST /api/posts: Fetch all posts with populated comments and likes.
+ GET /api/posts: Fetch all posts with populated comments and likes. 
 
   POST /api/likes/like: Like a post.
 
