@@ -42,28 +42,25 @@ DATABASE_URL = mongodb://127.0.0.1:27017/blogDatabas
 Usage
 
 To run the application, use the following command:
-
-
 npm start
-Visit http://localhost:3000 in your browser to access the application.
 
-  API Endpoints
+        Visit http://localhost:3000 in your browser to access the application.
+        
+          API Endpoints
+        
+          
+         The following API endpoints are available:
+        
+          POST /api/create/comment: Create a comment.
+        
+          POST /api/create/post: Create a blog post.
+        
+         GET /api/posts: Fetch all posts with populated comments and likes. 
+        
+          POST /api/likes/like: Like a post.
+        
+          POST /api/likes/unlike: Unlike a post.
+        
+         Make requests to these endpoints using tools like Postman or any API testing tool.
 
-  
- The following API endpoints are available:
 
-  POST /api/create/comment: Create a comment.
-
-  POST /api/create/post: Create a blog post.
-
- GET /api/posts: Fetch all posts with populated comments and likes. 
-
-  POST /api/likes/like: Like a post.
-
-  POST /api/likes/unlike: Unlike a post.
-
- Make requests to these endpoints using tools like Postman or any API testing tool.
-
- Contributing
-
-Contributions are welcome! Please follow the contribution guidelines.
