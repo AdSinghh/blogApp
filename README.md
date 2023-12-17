@@ -35,32 +35,33 @@ Create a .env file in the root directory.
 
 Add the following line to the .env file, replacing <your-mongodb-url> with your MongoDB connection string:
 
-makefile
 
 MONGODB_URI=<your-mongodb-url>
 
+
 Usage
+
 To run the application, use the following command:
 
 
 npm start
 Visit http://localhost:3000 in your browser to access the application.
 
-API Endpoints
+  API Endpoints
 The following API endpoints are available:
 
-POST /api/create/comment: Create a comment.
+  POST /api/create/comment: Create a comment.
 
-POST /api/create/post: Create a blog post.
+  POST /api/create/post: Create a blog post.
 
-POST /api/posts: Fetch all posts with populated comments and likes.
+  POST /api/posts: Fetch all posts with populated comments and likes.
 
-POST /api/likes/like: Like a post.
+  POST /api/likes/like: Like a post.
 
-POST /api/likes/unlike: Unlike a post.
+  POST /api/likes/unlike: Unlike a post.
 
-Make requests to these endpoints using tools like Postman or any API testing tool.
+ Make requests to these endpoints using tools like Postman or any API testing tool.
 
-Contributing
+ Contributing
 
 Contributions are welcome! Please follow the contribution guidelines.
