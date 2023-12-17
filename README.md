@@ -31,13 +31,13 @@ cd blog-app
 npm install
 
 3.Set up the MongoDB connection:
+
+
 Create a .env file in the root directory.
 
 Add the following line to the .env file, replacing <your-mongodb-url> with your MongoDB connection string:
 
-
-MONGODB_URI=<your-mongodb-url>
-
+DATABASE_URL = mongodb://127.0.0.1:27017/blogDatabas
 
 Usage
 
