@@ -27,39 +27,39 @@ cd blog-app
 
 
 
-2.Install dependencies:
+2. Install dependencies:
 npm install
 
-3.Set up the MongoDB connection:
+3. Set up the MongoDB connection:
 
 
-Create a .env file in the root directory.
+4. Create a .env file in the root directory.
 
-Add the following line to the .env file, replacing <your-mongodb-url> with your MongoDB connection string:
+- Add the following line to the .env file, replacing <your-mongodb-url> with your MongoDB connection string:
 
 DATABASE_URL = mongodb://127.0.0.1:27017/blogDatabas
 
-Usage
+# Usage
 
 To run the application, use the following command:
 npm start
 
         Visit http://localhost:3000 in your browser to access the application.
         
-          API Endpoints
+ # API Endpoints
         
           
          The following API endpoints are available:
         
-          POST /api/create/comment: Create a comment.
+         - POST /api/create/comment: Create a comment.
         
-          POST /api/create/post: Create a blog post.
+         - POST /api/create/post: Create a blog post.
         
-         GET /api/posts: Fetch all posts with populated comments and likes. 
+         - GET /api/posts: Fetch all posts with populated comments and likes. 
         
-          POST /api/likes/like: Like a post.
+         - POST /api/likes/like: Like a post.
         
-          POST /api/likes/unlike: Unlike a post.
+         - POST /api/likes/unlike: Unlike a post.
         
          Make requests to these endpoints using tools like Postman or any API testing tool.
 
